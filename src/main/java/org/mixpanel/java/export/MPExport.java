@@ -1,9 +1,6 @@
-package com.mixpanel.java.export;
+package org.mixpanel.java.export;
 
 
-import com.mixpanel.java.MPException;
-import com.mixpanel.java.mpmetrics.MPConfig;
-import com.mixpanel.java.util.StringUtils;
 import org.apache.commons.codec.binary.Hex;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -17,6 +14,9 @@ import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.mixpanel.java.MPException;
+import org.mixpanel.java.mpmetrics.MPConfig;
+import org.mixpanel.java.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

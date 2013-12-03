@@ -1,7 +1,5 @@
-package com.mixpanel.java.mpmetrics;
+package org.mixpanel.java.mpmetrics;
 
-import com.mixpanel.java.util.Base64Coder;
-import com.mixpanel.java.util.StringUtils;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -13,6 +11,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.mixpanel.java.util.Base64Coder;
+import org.mixpanel.java.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

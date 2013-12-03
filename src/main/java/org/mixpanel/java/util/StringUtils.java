@@ -1,4 +1,4 @@
-package com.mixpanel.java.util;
+package org.mixpanel.java.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;

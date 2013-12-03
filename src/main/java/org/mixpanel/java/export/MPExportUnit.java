@@ -1,4 +1,4 @@
-package com.mixpanel.java.export;
+package org.mixpanel.java.export;
 
 /**
  * 24.07.12 by IntelliJ IDEA 10 CE.

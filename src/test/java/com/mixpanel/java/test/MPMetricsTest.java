@@ -1,8 +1,9 @@
 package com.mixpanel.java.test;
 
-import com.mixpanel.java.mpmetrics.MPMetrics;
 import junit.framework.Assert;
+
 import org.junit.Test;
+import org.mixpanel.java.mpmetrics.MPMetrics;
 
 import java.util.HashMap;
 import java.util.Map;

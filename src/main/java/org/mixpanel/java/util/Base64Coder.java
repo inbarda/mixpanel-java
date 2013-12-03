@@ -1,4 +1,4 @@
-package com.mixpanel.java.util;
+package org.mixpanel.java.util;
 
 public class Base64Coder {
 

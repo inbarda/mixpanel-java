@@ -1,13 +1,14 @@
 package com.mixpanel.java.test;
 
-import com.mixpanel.java.MPException;
-import com.mixpanel.java.export.MPExport;
-import com.mixpanel.java.export.MPExportType;
-import com.mixpanel.java.export.MPExportUnit;
 import junit.framework.Assert;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Test;
+import org.mixpanel.java.MPException;
+import org.mixpanel.java.export.MPExport;
+import org.mixpanel.java.export.MPExportType;
+import org.mixpanel.java.export.MPExportUnit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

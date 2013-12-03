@@ -1,4 +1,4 @@
-package com.mixpanel.java.mpmetrics;
+package org.mixpanel.java.mpmetrics;
 
 import java.util.concurrent.ThreadFactory;
 
