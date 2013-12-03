@@ -173,6 +173,14 @@ public class MPExport {
         }
         return doRequestJSONObject("events/properties/top", params);
     }
+    
+    public JSONObject engage() throws MPException {
+        Map<String, Object> params = getParams();
+
+        JSONArray eventsJson = new JSONArray();
+
+        return doRequestJSONObject("engage", params);
+    }
 
     private List<JSONObject> doRequestRawJSONObject(String path, Map<String, Object> params) throws MPException {
         try {
