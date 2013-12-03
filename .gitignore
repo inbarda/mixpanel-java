@@ -1,14 +1,5 @@
-/.idea
-/.idea_modules
-/out
-.history
-target
-workspace.xml
-# OS generated files #
-######################
-.DS_Store?
-ehthumbs.db
-Icon?
-Thumbs.db
-
-
+.project
+.classpath
+.metadata
+.settings
+target/
